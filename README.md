@@ -19,10 +19,14 @@ python -m venv [venv-name]
 pip install -r requirements.txt
 ```
 
-### Run server
+### Run server and client for SSE endpoint
 
 ```
-fastapi run server.py
+uv run uvicorn server:app
+
+# In a separate terminal:
+
+uv run client.py
 ```
 
 ## 🚧 👷THIS REPOSITORY IS UNDER CONSTRUCTION 🚧
