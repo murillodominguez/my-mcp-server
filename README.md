@@ -17,7 +17,6 @@
 ```
 python -m venv [venv-name]
 pip install -r requirements.txt
-
 ```
 
 ### Run server
